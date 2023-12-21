@@ -79,6 +79,11 @@ header nav ul li {
     padding: 0 40px;
 }
 
+.logollfutstore {
+    max-height: 200px;
+    width: auto;
+}
+
 /* ESTILO DO TOPO DO SITE */
 section.topo-site {
     padding: 40px 4%;
