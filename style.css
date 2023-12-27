@@ -331,3 +331,100 @@ footer .line-footer p i {
 footer .line-footer p a {
     color: #fff;
 }
+
+.logo-footer img {
+        max-height: 200px;
+        width: auto;
+}
+
+/* ESTILO MOBILE */
+
+@media screen and (max-width: 1020px) {
+
+    /* CLASSES GERAIS */
+    .flex {
+        flex-direction: column;
+    }
+
+    .topo-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    h2.titulo {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    /* SEÇÃO CABEÇALHO */
+
+    .menu-desktop, .btn-contato {
+        display: none;
+    }
+
+    /* TOPO DO SITE */
+
+    section .topo-site .flex {
+        gap: 40px;        
+    }
+    
+    section .topo-site {
+        padding: 20px 8%;
+    }
+
+    .topo-site h1 {
+        font-size: 30px;
+    }
+
+    .topo-site .img-topo-site img {
+        width: 110%;
+    }
+
+    /* ESTILO DAS ESPECIALIDADES */
+
+    section.especialidades {
+        padding: 40px 8%;
+    }
+
+    /* ESTILO DA SEÇÃO SOBRE */
+
+    section.sobre {
+        padding: 80px 8%;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .btn-social {
+        text-align: center;
+    }
+
+    /* SEÇÃO PORTFÓLIO */
+
+    section.portfolio {
+        padding: 80px 8%;
+    }
+
+    .img-port {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    section.portfolio .flex {
+        gap: 60px;
+    }
+
+    /* SEÇÃO RODAPÉ */
+
+    footer .flex {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    footer .line-footer {
+        text-align: center;
+    }
+}
